@@ -31,7 +31,7 @@ export default function Navbar() {
                         <li><Link to="/contact" >Contact</Link></li>
                         <li><Link to="/products" >Products</Link></li>
                         <li><Link to="/log" >
-                        <i className="fas fa-sign-in-alt"></i>Login</Link></li>
+                        <i className="fas fa-sign-in-alt"></i></Link></li>
                     </ul>
 
                     <Cart valueProps={value} />
